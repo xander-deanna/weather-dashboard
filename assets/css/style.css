@@ -1,0 +1,122 @@
+/* ----------------------- MAIN CONTENT ----------------------- */
+/* Resetting font for entire page */
+* {
+    font-family: 'Inconsolata', monospace;
+    color: #c9c9c9;
+}
+/* setting header text back to white */
+h1 {
+    color: #ffffff;
+}
+/* setting card headers back to white */
+.card-header {
+    color: #ffffff;
+}
+/* changing icon size for a better fit */
+#icon, .forcast-icon {
+    width: 50px;
+    height: auto;
+}
+/* background image */
+body {
+    background-image: url('../images/background-image.gif');
+}
+/* navbar attributes */
+.navbar {
+    box-shadow: 1px 1px 7px 7px #0dcaf08f;
+    border-bottom: 2px solid #0dcaf0;
+}
+/* main-content spacing*/
+.recently-searched-card-content, .current-weather-card-content {
+    margin-top: 15px;
+}
+
+/* ----------------------- RECENT SEARCH ------------------------ */
+/* coloring for recent search card */
+.recently-searched-card-content {
+    box-shadow: 1px 1px 7px 7px #0dcaf08f;
+    border: 2px solid #0dcaf0;
+    border-radius: 7px;
+    min-width: 150px;
+}
+/* coloring for recent card title */
+.recent-search-card-title {
+    background-color: #212529!important;
+    border-bottom: 2px solid #0dcaf0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/* coloring for recent card body */
+.recent-search-card-body {
+    background-color: #212529!important;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: url('../images/card-background-image.gif');
+    background-blend-mode:lighten;
+}
+/* recent search buttons spacing */
+.city-btns {
+    margin-bottom: 10px;
+}
+
+/* ------------------- CURRENT CITY WEATHER -------------------- */
+/* coloring for current weather card */
+.current-weather-card-content {
+    box-shadow: 1px 1px 7px 7px #0dcaf08f;
+    border: 2px solid #0dcaf0;
+    border-radius: 7px;
+}
+/* coloring for current weather card title */
+.current-weather-card-title {
+    background-color: #212529!important;
+    border-bottom: 2px solid #0dcaf0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/* coloring for current weather card body */
+.current-weather-card-body {
+    background-color: #212529!important;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* ------------------- UV COLOR CODING -------------------- */
+.green {
+    color:#7dfca7;
+    display: initial;
+}
+.yellow {
+    color:#effda1;
+    display: initial;
+}
+.orange {
+    color:#fad7a2;
+    display: initial;
+}
+.red {
+    color:#ffb9b9;
+    display: initial;
+}
+.violet{
+    color:#d6aafa;
+    display: initial;
+}
+
+
+
+.forcast-card {
+    color: #000000;
+    float: left;
+    background-color: #5cdbf5;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 140px;
+    height: auto;
+    padding: 1px;
+}
+.date, .temperatureForecast, .humidityForecast {
+    color: #000000 !important;
+}
